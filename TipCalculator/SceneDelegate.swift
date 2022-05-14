@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  TipCalculator
 //
-//  Created by Matthew Keefe on 1/15/21.
+//  Created by Franciscus Valentinus Ongkosianbhadra on 5/10/22.
 //
 
 import UIKit
