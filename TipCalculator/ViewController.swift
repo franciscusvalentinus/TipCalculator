@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         let billAmount:Double = Double(billAmountTxt.text!)!
         
         let tipAmount:Double = (Double(tipPercentTxt.text!)! / 100) * billAmount
-        tipAmountLbl.text = String(format: "$%.02f", tipAmount)
+        tipAmountLbl.text = String(format: "Rp.%.02f", tipAmount)
         
-        billTotalLbl.text = String(format: "$%.02f", billAmount + tipAmount)
+        billTotalLbl.text = String(format: "Rp.%.02f", billAmount + tipAmount)
         
     }
     
